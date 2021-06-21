@@ -7,11 +7,12 @@ public class FPSPlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float movementSpeed;
-   
+    
     private float horizontalMovement;
     private float verticalMovement;
     private Vector3 moveDirection;
     private Rigidbody rb;
+   
 
     private void Start()
     {
