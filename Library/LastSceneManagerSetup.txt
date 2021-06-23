@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Team Members/John/Scenes/ControllerDemo.unity
+- path: Assets/Team Members/Jesse/Scenes/JesseLevelDemo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
