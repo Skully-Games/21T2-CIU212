@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Mirror;
 using UnityEngine;
 
-public class FPSPlayerController : MonoBehaviour
+public class FPSPlayerController : NetworkBehaviour
 {
     [Header("Movement")]
     public float movementSpeed;
+    
     
     private float horizontalMovement;
     private float verticalMovement;
@@ -22,8 +24,11 @@ public class FPSPlayerController : MonoBehaviour
 
     private void Update()
     {
-        horizontalMovement = Input.GetAxisRaw("Horizontal");
-        verticalMovement = Input.GetAxisRaw("Vertical");
+        if (isLocalPlayer)
+        {
+            horizontalMovement = Input.GetAxisRaw("Horizontal");
+            verticalMovement = Input.GetAxisRaw("Vertical");
+        }
 
         moveDirection = transform.forward * verticalMovement + transform.right * horizontalMovement;
     }
