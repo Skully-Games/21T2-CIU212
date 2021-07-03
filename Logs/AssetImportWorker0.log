@@ -1,183 +1,227 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16301 MB
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\Unity Versions\2021.1.6f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Projects/Unity Projects/School Projects/21T2-CIU212
+D:/Trimester 2/Hide & Sneak
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59160
-Successfully changed project path to: D:/Projects/Unity Projects/School Projects/21T2-CIU212
-D:/Projects/Unity Projects/School Projects/21T2-CIU212
+65323
+Successfully changed project path to: D:/Trimester 2/Hide & Sneak
+D:/Trimester 2/Hide & Sneak
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 86.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
-[Subsystems] Discovering subsystems at path D:/Unity/Unity Versions/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Projects/Unity Projects/School Projects/21T2-CIU212/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Trimester 2/Hide & Sneak/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8088 MB
+    VRAM:     8010 MB
     Driver:   27.21.14.6663
 Initialize mono
-Mono path[0] = 'D:/Unity/Unity Versions/2021.1.6f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Unity Versions/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/Unity Versions/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Unity Versions/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001030 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001669 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 84.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
+- Completed reload, in  1.217 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004778 seconds.
+Registered in 0.005400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Find all reader and writers took 73 milliseconds
+Find all reader and writers took 97 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took68 milliseconds
-Find all reader and writers took 58 milliseconds
+Weave behaviours and messages took79 milliseconds
+Find all reader and writers took 76 milliseconds
 Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took20 milliseconds
-Find all reader and writers took 52 milliseconds
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 66 milliseconds
 Script Module: SimpleWebTransport.dll
 Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 67 milliseconds
+Find all reader and writers took 81 milliseconds
 Script Module: Unity.VisualScripting.State.dll
 Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 62 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: Unity.VisualScripting.Core.dll
-Weave behaviours and messages took133 milliseconds
-Find all reader and writers took 52 milliseconds
+Weave behaviours and messages took138 milliseconds
+Find all reader and writers took 72 milliseconds
 Script Module: Unity.VisualScripting.Flow.dll
-Weave behaviours and messages took67 milliseconds
-Find all reader and writers took 76 milliseconds
+Weave behaviours and messages took80 milliseconds
+Find all reader and writers took 95 milliseconds
 Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took70 milliseconds
-Find all reader and writers took 55 milliseconds
+Weave behaviours and messages took77 milliseconds
+Find all reader and writers took 73 milliseconds
 Script Module: Unity.ProBuilder.Poly2Tri.dll
 Weave behaviours and messages took7 milliseconds
-Find all reader and writers took 60 milliseconds
+Find all reader and writers took 113 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took27 milliseconds
-Find all reader and writers took 68 milliseconds
+Weave behaviours and messages took32 milliseconds
+Find all reader and writers took 88 milliseconds
 Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took71 milliseconds
-Find all reader and writers took 49 milliseconds
+Weave behaviours and messages took77 milliseconds
+Find all reader and writers took 74 milliseconds
 Script Module: Telepathy.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 54 milliseconds
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 70 milliseconds
 Script Module: Unity.ProBuilder.Csg.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 55 milliseconds
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 73 milliseconds
 Script Module: kcp2k.dll
-Weave behaviours and messages took5 milliseconds
-Find all reader and writers took 56 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Unity.ProBuilder.KdTree.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 61 milliseconds
-Script Module: Assembly-CSharp.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 56 milliseconds
+Find all reader and writers took 73 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 80 milliseconds
+Find all reader and writers took 99 milliseconds
 Script Module: VSSettingsProvider.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 84 milliseconds
+Find all reader and writers took 103 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took38 milliseconds
-Find all reader and writers took 91 milliseconds
+Weave behaviours and messages took40 milliseconds
+Find all reader and writers took 101 milliseconds
 Script Module: ParrelSync.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 93 milliseconds
+Find all reader and writers took 97 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 61 milliseconds
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 84 milliseconds
+Find all reader and writers took 103 milliseconds
 Script Module: UnityEditor.UI.dll
 Weave behaviours and messages took10 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  5.650 seconds
+- Completed reload, in  7.107 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.7 MB.
-System memory in use after: 136.8 MB.
+Unloading 3399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
 
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3791.
-Total: 7.960000 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.157600 ms MarkObjects: 7.273500 ms  DeleteObjects: 0.239600 ms)
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 7.794600 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.217400 ms MarkObjects: 7.061400 ms  DeleteObjects: 0.218300 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Team Members/Chris/Scenes
+  artifactKey: Guid(819f193a61c08604782f5e19850c84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Chris/Scenes using Guid(819f193a61c08604782f5e19850c84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e459585e17fd6c36e658332bfc59258') in 0.005365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.957179 seconds.
+  path: Assets/Team Members/John/Models
+  artifactKey: Guid(ae5066a033257494e872adfe605b26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/John/Models using Guid(ae5066a033257494e872adfe605b26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b32b942e7b8819c50284824aacf9c') in 0.001847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.776340 seconds.
+  path: Assets/Team Members/John/Prefabs/Player.prefab
+  artifactKey: Guid(7ae23c05e04d774408bc96ff9e8af95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/John/Prefabs/Player.prefab using Guid(7ae23c05e04d774408bc96ff9e8af95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681001a34a5a9d6377503966f85aa48a') in 0.149567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 490.225976 seconds.
+  path: Assets/Team Members/John/Scenes
+  artifactKey: Guid(d478b13eeb0b9744fb05dc081d1ff65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/John/Scenes using Guid(d478b13eeb0b9744fb05dc081d1ff65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff5a7ffe230ea6d9f2a978010ea88ed') in 0.002135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.163416 seconds.
+  path: Assets/Team Members/John/Scenes/LevelDesignDemo.unity
+  artifactKey: Guid(dbd3ac682a87239418cfa22572fabd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/John/Scenes/LevelDesignDemo.unity using Guid(dbd3ac682a87239418cfa22572fabd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b39cb119e7d210c2fa6ef785c02151') in 0.002711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.466322 seconds.
+  path: Assets/Team Members/Jesse/Container.mat
+  artifactKey: Guid(f7e26f5b4b97faa4b900e051d5435c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Jesse/Container.mat using Guid(f7e26f5b4b97faa4b900e051d5435c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce517c21e47475b8299be5fb64b8de7') in 0.046271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
   path: Assets/Team Members/Jesse/New Material 2.mat
   artifactKey: Guid(ac16b8b356d90894e98e3cd2b46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/New Material 2.mat using Guid(ac16b8b356d90894e98e3cd2b46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f278beaa0ebc248bf4e19271d843c3b9') in 0.137391 seconds 
+Start importing Assets/Team Members/Jesse/New Material 2.mat using Guid(ac16b8b356d90894e98e3cd2b46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220b09c62565e8d18ed14fee1c0de916') in 0.045573 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.492194 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/ThirdPersonPlayer.prefab
-  artifactKey: Guid(b0fcfc74507ff9f4dbabeb9e19d4ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/ThirdPersonPlayer.prefab using Guid(b0fcfc74507ff9f4dbabeb9e19d4ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7e325d465f4da09d8ce2f4666eba55') in 0.080868 seconds 
+  Time since last request: 0.000335 seconds.
+  path: Assets/Team Members/Jesse/New Material.mat
+  artifactKey: Guid(b928b26eb8ff68741af3ce34ac07ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Jesse/New Material.mat using Guid(b928b26eb8ff68741af3ce34ac07ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9e62db73f51cc51adc422db466fb3e') in 0.021424 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.107296 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/ContainerType1.prefab
-  artifactKey: Guid(485e409ecf78cdb4799ee5750e66fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/ContainerType1.prefab using Guid(485e409ecf78cdb4799ee5750e66fa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dbde5eff58943b12e53a9fd4838fc1') in 0.050725 seconds 
+  Time since last request: 0.000293 seconds.
+  path: Assets/Team Members/Jesse/New Material 1.mat
+  artifactKey: Guid(cbd2beb95d8b89b4e88777b8616d35ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Jesse/New Material 1.mat using Guid(cbd2beb95d8b89b4e88777b8616d35ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692f31225bb25e4b8143d51f425676a4') in 0.030548 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.507959 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/ContainerType2.prefab
-  artifactKey: Guid(bcbafc4384cf0454f9730af7d9b84e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/ContainerType2.prefab using Guid(bcbafc4384cf0454f9730af7d9b84e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77bd4e63e0e17b00113d9a95a20cb05') in 0.011474 seconds 
+  Time since last request: 1.708281 seconds.
+  path: Assets/Team Members/Jesse/Scenes/JesseLevelDemo.unity
+  artifactKey: Guid(ce1b81520c514f94fa7722821cec13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Jesse/Scenes/JesseLevelDemo.unity using Guid(ce1b81520c514f94fa7722821cec13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28150c53062b5bdf4b9394fa21dc049') in 0.002077 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.004913 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/ContainerType3.prefab
-  artifactKey: Guid(176d3d85cf1147f4aa452c36ae6e18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/ContainerType3.prefab using Guid(176d3d85cf1147f4aa452c36ae6e18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0c3c17f06b64f0dcf58afe2cd8f1c1') in 0.010953 seconds 
+  Time since last request: 25.394115 seconds.
+  path: Assets/Team Members/Chris/Scenes/ChrisLevel.unity
+  artifactKey: Guid(ba921a509ff88c14a914b0517d6beab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Members/Chris/Scenes/ChrisLevel.unity using Guid(ba921a509ff88c14a914b0517d6beab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367684827ddfc7f007123fb3cb9ec1f3') in 0.001969 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.429906 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/Box.prefab
-  artifactKey: Guid(de0afeb24cddbcf4cb5eb77c9b58d387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/Box.prefab using Guid(de0afeb24cddbcf4cb5eb77c9b58d387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f510d0c5a99a04a4457543c449b6ed') in 0.009964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.617220 seconds.
-  path: Assets/Team Members/Jesse/Prefabs/Plank.prefab
-  artifactKey: Guid(7ff243207863b8c48a727c9e239442bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/Prefabs/Plank.prefab using Guid(7ff243207863b8c48a727c9e239442bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14a3fdaaf8c8a0cecf1590d62155b1c') in 0.010460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26042.425065 seconds.
-  path: Assets/Team Members/Jesse/New Material 2.mat
-  artifactKey: Guid(ac16b8b356d90894e98e3cd2b46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team Members/Jesse/New Material 2.mat using Guid(ac16b8b356d90894e98e3cd2b46deb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b10c77f1db10d8d88d6f1cc1984abc') in 0.065266 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.5 MB.
+System memory in use after: 139.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 2.680700 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.206100 ms  DeleteObjects: 0.071500 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
