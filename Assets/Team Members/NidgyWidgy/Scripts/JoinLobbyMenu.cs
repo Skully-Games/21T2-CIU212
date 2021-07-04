@@ -14,7 +14,7 @@ namespace Nidgy
 
         [SerializeField] private TMP_InputField ipAddressInputField = null;
 
-        [SerializeField] private Button joinButton = null;
+        [SerializeField] private GameObject joinButton = null;
 
 
         void OnEnable()
@@ -36,13 +36,13 @@ namespace Nidgy
             networkManager.networkAddress = ipAddress;
             networkManager.StartClient();
             
-            joinButton.SetEnabled(false);
+            joinButton.SetActive(false);
         }
         
         
         void HandleClientConnected()
         {
-            joinButton.SetEnabled(true);
+            joinButton.SetActive(true);
             
             gameObject.SetActive(false);
             landingPagePanel.SetActive(false);
@@ -50,7 +50,7 @@ namespace Nidgy
 
         void HandleClientDisconnected()
         {
-            joinButton.SetEnabled(true);
+            joinButton.SetActive(true);
         }
     }
 }

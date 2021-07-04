@@ -383,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4399676425780257874, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: NoDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4399676425780257875, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
       propertyPath: m_Name
       value: NetworkManager
@@ -431,6 +435,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 5727784253472847205, guid: be77ac9bc8e145d4a86e4aa7b63c12e6, type: 3}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: autoCreatePlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: roomPlayerPrefab
+      value: 
+      objectReference: {fileID: 6375396659276567401, guid: 5117414f9aede834b8d2613a33665ee1, type: 3}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: dontDestroyOnLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: playerSpawnMethod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: spawnPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399676425780257877, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
+      propertyPath: spawnPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 8962175491928740879, guid: 5117414f9aede834b8d2613a33665ee1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d993140cb08b447afa9db4bff271d3, type: 3}
 --- !u!1001 &5552549899038911681
@@ -440,10 +472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5552549897858593224, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
-      propertyPath: networkManager
-      value: 
-      objectReference: {fileID: 785721876}
     - target: {fileID: 5552549897858593225, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
       propertyPath: m_Name
       value: MainMenuUI
@@ -496,5 +524,21 @@ PrefabInstance:
       propertyPath: networkManager
       value: 
       objectReference: {fileID: 785721876}
+    - target: {fileID: 5552549898741233978, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
+      propertyPath: m_text
+      value: 'Server IP:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552549898914438838, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
+      propertyPath: m_text
+      value: localhost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552549899369723139, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552549899369723139, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9bf06377f2c9f24daf042e751940a51, type: 3}

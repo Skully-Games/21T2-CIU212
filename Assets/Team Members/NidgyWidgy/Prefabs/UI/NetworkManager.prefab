@@ -59,13 +59,14 @@ MonoBehaviour:
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 2073008861273675133, guid: 1fb5be2fff79b8b4583a96f571e88ee9, type: 3}
+  playerPrefab: {fileID: 5727784253472847205, guid: be77ac9bc8e145d4a86e4aa7b63c12e6, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 8962175491928740879, guid: 5117414f9aede834b8d2613a33665ee1, type: 3}
   minPlayers: 2
   menuScene: Assets/Team Members/NidgyWidgy/Scenes/MenuDemo.unity
-  roomPlayerPrefab: {fileID: 4097484873962344987, guid: 1fb5be2fff79b8b4583a96f571e88ee9, type: 3}
+  roomPlayerPrefab: {fileID: 6375396659276567401, guid: 5117414f9aede834b8d2613a33665ee1, type: 3}
 --- !u!114 &4399676425780257874
 MonoBehaviour:
   m_ObjectHideFlags: 0

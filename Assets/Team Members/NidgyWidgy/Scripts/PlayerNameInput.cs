@@ -11,7 +11,7 @@ namespace Nidgy
     public class PlayerNameInput : MonoBehaviour
     {
         [SerializeField] private TMP_InputField nameInputField = null;
-        [SerializeField] private Button continueButton = null;
+        [SerializeField] private GameObject continueButton = null;
 
         public static string DisplayName { get; private set; }
 
@@ -37,7 +37,7 @@ namespace Nidgy
         {
             if (!string.IsNullOrEmpty(name))
             {
-                continueButton.SetEnabled(true);
+                continueButton.SetActive(true);
             }
         }
 
