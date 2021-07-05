@@ -15,11 +15,11 @@ C:/Users/Niall O'Brien/Desktop/Uni/21T2/21T2-CIU212/21T2-CIU212
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62996
+54188
 Successfully changed project path to: C:/Users/Niall O'Brien/Desktop/Uni/21T2/21T2-CIU212/21T2-CIU212
 C:/Users/Niall O'Brien/Desktop/Uni/21T2/21T2-CIU212/21T2-CIU212
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 175.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 94.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -40,13 +40,13 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003487 seconds.
+Registered in 0.002800 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.20 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 123.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.564 seconds
+- Completed reload, in  1.628 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006284 seconds.
+Registered in 0.006345 seconds.

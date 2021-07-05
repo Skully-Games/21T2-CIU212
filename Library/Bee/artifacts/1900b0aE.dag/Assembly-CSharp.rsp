@@ -358,6 +358,7 @@
 "Assets/MouseLook.cs"
 "Assets/Team Members/Jesse/Scripts/FirstPersonController.cs"
 "Assets/Team Members/Jesse/Scripts/ThirdPersonMouseLook.cs"
+"Assets/Team Members/John/Scripts/FPSPlayerController.cs"
 "Assets/Team Members/NidgyWidgy/Scripts/JoinLobbyMenu.cs"
 "Assets/Team Members/NidgyWidgy/Scripts/MainMenu.cs"
 "Assets/Team Members/NidgyWidgy/Scripts/NetworkManagerHnS.cs"

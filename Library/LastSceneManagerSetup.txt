@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Team Members/Chris/Scenes/ChrisLevel.unity
+- path: Assets/Team Members/NidgyWidgy/Scenes/MenuDemo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

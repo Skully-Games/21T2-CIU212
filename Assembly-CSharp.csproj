@@ -69,6 +69,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Team Members\John\Scripts\FPSPlayerController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Team Members\Jesse\Scripts\ThirdPersonMouseLook.cs" />
      <Compile Include="Assets\Team Members\NidgyWidgy\Scripts\PlayerNameInput.cs" />

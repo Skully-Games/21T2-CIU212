@@ -3,9 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Mirror;
-using Mono.CecilX;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 namespace Nidgy
@@ -31,7 +29,7 @@ namespace Nidgy
 
             foreach (var prefab in spawnablePrefabs)
             {
-                NetworkClient.RegisterPrefab(prefab);
+                ClientScene.RegisterPrefab(prefab);
             }
         }
 

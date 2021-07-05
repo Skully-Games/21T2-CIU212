@@ -27,14 +27,14 @@ namespace Nidgy
             set
             {
                 isLeader = value;
-                startGameButton.gameObject.SetActive(value);
+                startGameButton.gameObject.SetActive(!value);
             }
         }
 
 
         private NetworkManagerHnS room;
 
-        NetworkManagerHnS Room
+       private NetworkManagerHnS Room
         {
             get
             {
@@ -74,7 +74,7 @@ namespace Nidgy
 
         void UpdateDisplay()
         {
-            if (hasAuthority)
+            if (!hasAuthority)
             {
                 foreach (var player in Room.RoomPlayers)
                 {
@@ -99,7 +99,7 @@ namespace Nidgy
                 playerNameTexts[i].text = Room.RoomPlayers[i].DisplayName;
                 playerReadyTexts[i].text = Room.RoomPlayers[i].IsReady
                     ? "<color=green>Ready</color>"
-                    : "<color=Red>Not Ready</color>";
+                    : "<color=red>Not Ready</color>";
             }
         }
 
